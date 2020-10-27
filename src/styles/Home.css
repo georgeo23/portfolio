@@ -1,0 +1,27 @@
+.mainDiv {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 15%;
+  margin-right: 15%;
+  grid-gap: 10px;
+}
+.infoDiv {
+  box-sizing: border-box;
+  justify-content: centre;
+  padding: 10px;
+  border: rgba(255, 255, 255) 1px solid;
+  text-align: center;
+  background-color: #181e26;
+  opacity: 0.5;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.25s ease-out;
+  -moz-transition: background-color 0.25s ease-out;
+  -o-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+}
+.infoContent {
+    opacity: 1;
+}
+.infoDiv:hover {
+  opacity: 1;
+}

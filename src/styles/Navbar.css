@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+    color: white;
+}
+nav {
+    margin: 10px;
+    margin-left: 250px;
+    margin-right:250px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end; 
+}
