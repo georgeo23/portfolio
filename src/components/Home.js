@@ -19,7 +19,7 @@ class Home extends React.Component {
         </a>
         <br />
         <div className="infoDiv">
-          <a href="/projects" style={{ fontSize: "2rem" }}>
+          <a href="https://georgeolney.netlify.app/projects" style={{ fontSize: "2rem" }}>
             <Random
               text={"check out my most recent projects"}
               iterations={2}
@@ -32,7 +32,7 @@ class Home extends React.Component {
         </div>
         <br />
         <div className="infoDiv">
-          <a href="/about" style={{ textDecoration: 'underline' }}>
+          <a href="https://georgeolney.netlify.app/about" style={{ textDecoration: 'underline' }}>
             <Random
               text={"a brief overview of myself"}
               iterations={3}
@@ -52,7 +52,7 @@ class Home extends React.Component {
         </div>
         <br />
         <div className="infoDiv">
-          <a href="/contact">
+          <a href="https://georgeolney.netlify.app/contact">
             <Random
               text={"contact me"}
               iterations={4}
