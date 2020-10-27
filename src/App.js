@@ -14,10 +14,10 @@ class App extends React.Component {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route exact path="https://georgeolney.netlify.app/projects" component={Home} />
-          <Route exact path="https://georgeolney.netlify.app/projects" component={Projects} />
-          <Route exact path="https://georgeolney.netlify.app/about" component={About} />
-          <Route exact path="https://georgeolney.netlify.app/contact" component={Contact} />
+          <Route exact path="/projects" component={Home} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
         <ParticlesBg type="lines" bg={true} />
       </div>
